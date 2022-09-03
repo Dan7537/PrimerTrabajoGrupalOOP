@@ -22,11 +22,11 @@ return Math.pow(base*base + altura*altura, 0.5);
 void determinarTipoTriángulo() {
 	if ((base == altura) && (base == calcularHipotenusa()) && (altura
 			== calcularHipotenusa()))
-			System.out.println("Es un triángulo equilátero"); 
+			System.out.println("Es un triangulo equilatero"); 
 	else if ((base != altura) && (base != calcularHipotenusa()) &&
 			(altura != calcularHipotenusa()))
-			System.out.println("Es un triángulo escaleno"); 
+			System.out.println("Es un triangulo escaleno"); 
 	else
-		System.out.println("Es un triángulo isósceles"); 
+		System.out.println("Es un triangulo isosceles"); 
 }
 }
