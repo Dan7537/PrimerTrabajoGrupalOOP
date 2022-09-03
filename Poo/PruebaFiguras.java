@@ -9,35 +9,35 @@ public class PruebaFiguras {
 		TriánguloRectángulo figura4 = new TriánguloRectángulo(3,5);
 		Rombo figura5 = new Rombo(5,4);
 		Trapecio figura6 = new Trapecio(8,6,4);
-		System.out.println("El área del círculo es = " + figura1.
+		System.out.println("El area del circulo es = " + figura1.
 		calcularArea());
-		System.out.println("El perímetro del círculo es = " + figura1.
+		System.out.println("El perimetro del circulo es = " + figura1.
 		calcularPerímetro());
 		System.out.println();
-		System.out.println("El área del rectángulo es = " + figura2.
+		System.out.println("El area del rectangulo es = " + figura2.
 		calcularArea());
-		System.out.println("El perímetro del rectángulo es = " + figura2.
+		System.out.println("El perimetro del rectangulo es = " + figura2.
 		calcularPerímetro());
 		System.out.println();
-		System.out.println("El área del cuadrado es = " + figura3.
+		System.out.println("El area del cuadrado es = " + figura3.
 		calcularArea());
-		System.out.println("El perímetro del cuadrado es = " + figura3.
+		System.out.println("El perimetro del cuadrado es = " + figura3.
 		calcularPerímetro());
 		System.out.println();
-		System.out.println("El área del triángulo es = " + figura4.
+		System.out.println("El area del triangulo es = " + figura4.
 		calcularArea());
-		System.out.println("El perímetro del triángulo es = " + figura4.
+		System.out.println("El perimetro del triangulo es = " + figura4.
 		calcularPerímetro());
 		figura4.determinarTipoTriángulo();
 		System.out.println();
-		System.out.println("El área del rombo es = " + figura5.
+		System.out.println("El area del rombo es = " + figura5.
 		calcularArea());
-		System.out.println("El perímetro del rombo es = " + figura5.
+		System.out.println("El perimetro del rombo es = " + figura5.
 		calcularPerímetro());
 		System.out.println();
-		System.out.println("El área del trapecio es = " + figura6.
+		System.out.println("El area del trapecio es = " + figura6.
 		calcularArea());
-		System.out.println("El perímetro del trapecio es = " + figura6.
+		System.out.println("El perimetro del trapecio es = " + figura6.
 		calcularPerímetro());	
 	}
 
